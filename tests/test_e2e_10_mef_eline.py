@@ -502,7 +502,7 @@ class TestE2EMefEline:
         # TODO
         assert True
 
-    def test_070_delete_evc_after_restart_kytos_and_no_switch_reconnected(self)
+    def test_070_delete_evc_after_restart_kytos_and_no_switch_reconnected(self):
         evc1 = self.create_evc(100)
 
         # restart the controller and change the port on purpose to avoid switches to connect
